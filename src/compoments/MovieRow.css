@@ -32,8 +32,8 @@
     transform: scale(1);
  }
 
- .movieRow-left,
- .movieRow-right {
+ .movieRow--left,
+ .movieRow--right {
     position:absolute;   
     width: 40px;
     height: 225px;
@@ -48,23 +48,23 @@
     transition : all ease 0.2s;
 }
 
- .movieRow-left{
+ .movieRow--left{
      left: 0;
  }
 
- .movieRow-right{
+ .movieRow--right{
     right: 0;
 }
 
-.movieRow:hover .movieRow-left,
-.movieRow:hover .movieRow-right{
+.movieRow:hover .movieRow--left,
+.movieRow:hover .movieRow--right{
     opacity: 1;
 }
 
 
 @media (max-width: 760px){
-    .movieRow-left,
-    .movieRow-right {
+    .movieRow--left,
+    .movieRow--right {
     opacity: 1;
     }
 }

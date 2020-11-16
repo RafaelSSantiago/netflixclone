@@ -62,6 +62,13 @@ useEffect(()=>{
        feito por Rafael Santiago para estudo de react, todos os direitos das imagens são da Netflix.
         Dados Extraidos de https://www.themoviedb.org/
       </footer>
+
+
+      {movieList.length <= 0 &&
+      <div className="loading">
+          <img src="https://www.filmelier.com/pt/br/news/wp-content/uploads/2020/03/Netflix_LoadTime-scaled.gif" alt="carregando" />
+      </div>
+    }
     </div>
   )
 }
